@@ -1,0 +1,89 @@
+/* About.module.css */
+
+/* General Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* Header */
+.header {
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 48px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+
+.navLink:hover {
+  color: #3b82f6; /* blue-500 */
+}
+
+.searchInput {
+  border: 1px solid #d1d5db; /* gray-300 */
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+/* About Us Section */
+.aboutSection {
+  background-color: #f3f4f6; /* gray-100 */
+  padding: 64px 16px;
+  text-align: center;
+}
+
+.aboutTitle {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.aboutText {
+  font-size: 18px;
+  color: #374151; /* gray-700 */
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+/* Footer */
+.footer {
+  background-color: white;
+  color: black;
+  padding: 40px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+  background-color: #374151; /* gray-700 */
+  padding: 20px;
+  margin-top: 128px;
+}
+
+.footerTitle {
+  font-size: 24px;
+  font-weight: 800;
+  color: black;
+}
